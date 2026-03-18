@@ -11,8 +11,7 @@ description: Commit and push changes with a custom message
    - Run `git status`
    - Run `git add -A`
    - Run `git commit -m "[message]"`
-   - Run `eval $(ssh-agent) && ssh-add ~/.ssh/id_ed25519_parag08`
-   - Run `git push origin $(git branch --show-current)`
+   - Run `git push origin $(git branch --show-current) || (eval $(ssh-agent) && ssh-add ~/.ssh/id_ed25519_parag08 && git push origin $(git branch --show-current))`
 
 3. Report results:
    - Show the commit hash.
