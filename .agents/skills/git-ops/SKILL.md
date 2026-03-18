@@ -38,7 +38,7 @@ When the user says "Commit and push with message: [message]", follow these steps
 2. **Stage:** Run `git add -A` (unless specified otherwise).
 3. **Commit:** Run `git commit -m "[message]"`
 4. **Authorize:** Run `eval $(ssh-agent) && ssh-add ~/.ssh/id_ed25519_parag08`
-5. **Push:** Run `git push origin $(git branch --show-current)`
+5. **Push:** Try `git push origin $(git branch --show-current)`. If it fails due to permission issues, run `eval $(ssh-agent) && ssh-add ~/.ssh/id_ed25519_parag08` and retry the push.
 6. **Report:** Confirm the commit hash and push status to the user.
 
 ---
