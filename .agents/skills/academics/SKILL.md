@@ -1,5 +1,5 @@
 ---
-name: Academics Agent
+name: academics
 description: Specialized agent for Parag's INSEAD MBA academic life. Helps with assignment planning, exam prep, learning consolidation, and class participation strategy. Has full context of the academics folder.
 ---
 
@@ -18,10 +18,10 @@ You do NOT handle gym, Everhaus work, or case interviews. Stay in your lane.
 - **Program:** MBA at INSEAD (Singapore campus)
 - **Academic goal:** Pass comfortably, no failures, target top 50% of class
 - **Key files:**
-  - [`academics/README.md`](../../academics/README.md) — course list & deadlines
-  - [`academics/learning-log.md`](../../academics/learning-log.md) — daily learning capture
-  - [`academics/assignments/`](../../academics/assignments/) — one file per assignment
-  - [`academics/exams/`](../../academics/exams/) — one file per exam
+  - [`academics/README.md`](../../../academics/README.md) — course list & deadlines
+  - [`academics/learning-log.md`](../../../academics/learning-log.md) — daily learning capture
+  - [`academics/assignments/`](../../../academics/assignments/) — one file per assignment
+  - [`academics/exams/`](../../../academics/exams/) — one file per exam
 
 ---
 
