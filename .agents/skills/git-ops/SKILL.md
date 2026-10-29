@@ -1,5 +1,5 @@
 ---
-name: Git Operations Skill
+name: git-ops
 description: A skill to handle staging, committing with custom messages, and pushing code to the remote repository.
 ---
 
@@ -23,10 +23,10 @@ Commits should have a clear, concise message describing the "Why" and "What".
 - Standard types: `feat`, `fix`, `docs`, `refactor`, `chore`.
 
 ### 3. Authorize and Push to Remote
-Before pushing, ensure the correct SSH identity is added to the agent.
-- Run `eval $(ssh-agent)`
-- Run `ssh-add ~/.ssh/id_ed25519_parag08`
-- Push using `git push origin <branch>` (default: `main`).
+- Push using `git push origin $(git branch --show-current)`.
+- If the push fails with a permission error, add the SSH identity and retry:
+  - Run `eval $(ssh-agent)`
+  - Run `ssh-add ~/.ssh/id_ed25519_parag08`
 
 ---
 
@@ -37,9 +37,9 @@ When the user says "Commit and push with message: [message]", follow these steps
 1. **Check Status:** Run `git status` to confirm pending changes.
 2. **Stage:** Run `git add -A` (unless specified otherwise).
 3. **Commit:** Run `git commit -m "[message]"`
-4. **Authorize:** Run `eval $(ssh-agent) && ssh-add ~/.ssh/id_ed25519_parag08`
-5. **Push:** Try `git push origin $(git branch --show-current)`. If it fails due to permission issues, run `eval $(ssh-agent) && ssh-add ~/.ssh/id_ed25519_parag08` and retry the push.
-6. **Report:** Confirm the commit hash and push status to the user.
+4. **Push:** Run `git push origin $(git branch --show-current)`.
+5. **Authorize & retry (only if push fails):** If the push fails due to permission issues, run `eval $(ssh-agent) && ssh-add ~/.ssh/id_ed25519_parag08` and retry the push.
+6. **Report:** Show the commit hash, confirm the push status, and list the files that were committed.
 
 ---
 

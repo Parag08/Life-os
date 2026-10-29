@@ -8,7 +8,7 @@
 
 | # | Date | Partner | Case Name | Case Type | Firm Fit | Score (1–5) | Feedback File | Key Takeaway |
 |---|------|---------|-----------|-----------|----------|-------------|---------------|--------------|
-| 1 | 2026-03-18 | — | Example Case | Profitability | MBB | — | [feedback-001.md](./feedback/feedback-001.md) | First session, baseline |
+| 1 | 2026-03-18 | — | Example Case | Profitability | MBB | — | `feedback-001.md` (not yet created) | First session, baseline |
 
 ---
 

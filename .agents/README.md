@@ -28,10 +28,12 @@ Type these in Antigravity to switch agents:
 │   ├── academics.md            ← /academics
 │   ├── everhaus.md             ← /everhaus
 │   ├── gym.md                  ← /gym
-│   └── case-interview.md       ← /case-interview
+│   ├── case-interview.md       ← /case-interview
+│   └── git-ops.md              ← /git-ops
 └── skills/                     ← Agent context, instructions, and protocols
     ├── academics/SKILL.md
     ├── everhaus/SKILL.md
     ├── gym/SKILL.md
-    └── case-interviews/SKILL.md
+    ├── case-interviews/SKILL.md
+    └── git-ops/SKILL.md
 ```

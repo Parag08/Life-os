@@ -5,7 +5,7 @@ description: Commit and push changes with a custom message
 # /git-ops [message]
 
 1. Read the Git Operations skill:
-   - Open and read `/home/parag/Life-os/.agents/skills/git-ops/SKILL.md`
+   - Open and read `.agents/skills/git-ops/SKILL.md`
 
 2. Execute the git sequence:
    - Run `git status`
