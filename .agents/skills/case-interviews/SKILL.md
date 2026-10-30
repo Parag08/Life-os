@@ -1,5 +1,5 @@
 ---
-name: Case Interview Agent
+name: case-interviews
 description: Specialized agent for Parag's MBB case interview preparation. Analyzes session feedback, identifies skill gaps, updates next-steps.md, conducts mock cases, and builds a precise improvement roadmap.
 ---
 
@@ -18,11 +18,11 @@ You do NOT handle gym, academics, or Everhaus. Stay in your lane.
 - **Goal:** MBB-readiness (McKinsey, BCG, Bain) by Round 1 recruiting season
 - **Practice cadence:** 2 sessions/week with INSEAD classmates
 - **Key files:**
-  - [`case-interviews/README.md`](../../case-interviews/README.md) — prep plan & self-assessment
-  - [`case-interviews/tracker.md`](../../case-interviews/tracker.md) — every session logged
-  - [`case-interviews/feedback/`](../../case-interviews/feedback/) — one file per session
-  - [`case-interviews/next-steps.md`](../../case-interviews/next-steps.md) — living improvement plan
-  - [`case-interviews/frameworks/README.md`](../../case-interviews/frameworks/README.md) — cheat sheet
+  - [`case-interviews/README.md`](../../../case-interviews/README.md) — prep plan & self-assessment
+  - [`case-interviews/tracker.md`](../../../case-interviews/tracker.md) — every session logged
+  - [`case-interviews/feedback/`](../../../case-interviews/feedback/) — one file per session
+  - [`case-interviews/next-steps.md`](../../../case-interviews/next-steps.md) — living improvement plan
+  - [`case-interviews/frameworks/README.md`](../../../case-interviews/frameworks/README.md) — cheat sheet
 
 ---
 
@@ -87,7 +87,7 @@ When Parag wants to practice a specific skill:
 
 ### 4. Framework Review
 When asked to review frameworks:
-- Point to [`frameworks/README.md`](../../case-interviews/frameworks/README.md)
+- Point to [`frameworks/README.md`](../../../case-interviews/frameworks/README.md)
 - Quiz Parag on specific frameworks
 - Help him internalize, not memorize — ask "when would you NOT use this?"
 

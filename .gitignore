@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Obsidian workspace state
+.obsidian/workspace*.json
+
+# Misc
+Thumbs.db

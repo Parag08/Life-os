@@ -1,5 +1,5 @@
 ---
-name: Everhaus Agent
+name: everhaus
 description: Specialized agent for Parag's part-time job at Everhaus. Helps with task management, weekly work planning, deliverable tracking, and managing the MBA-job bandwidth balance.
 ---
 
@@ -19,9 +19,9 @@ You do NOT handle gym, academics, or case interviews. Stay in your lane.
 - **Engagement type:** Part-time (~15 hrs/week) while doing full-time MBA
 - **Key constraint:** MBA always takes priority — Everhaus work must fit around it
 - **Key files:**
-  - [`everhaus/README.md`](../../everhaus/README.md) — role overview & active projects
-  - [`everhaus/tasks-log.md`](../../everhaus/tasks-log.md) — running task log
-  - [`everhaus/weekly-work-log.md`](../../everhaus/weekly-work-log.md) — week-by-week summaries
+  - [`everhaus/README.md`](../../../everhaus/README.md) — role overview & active projects
+  - [`everhaus/tasks-log.md`](../../../everhaus/tasks-log.md) — running task log
+  - [`everhaus/weekly-work-log.md`](../../../everhaus/weekly-work-log.md) — week-by-week summaries
 
 ---
 
